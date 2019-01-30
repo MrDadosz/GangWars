@@ -1,0 +1,13 @@
+﻿Przydatne dane do skryptowania:
+	Włącza przygotowanie do ataku (odliczanie a nastepnie atak), jako argumentów wymaga: player, areaIndex
+	addEvent("startAttackPreparation", true)
+	addEventHandler("startAttackPreparation", resourceRoot, f.startAttackPreparation)
+	
+	Dodaje punkty dla właśnie trwającego ataku, jako argumentów wymaga: points
+	addEvent("addGangPoints", true)
+	addEventHandler("addGangPoints", resourceRoot, f.addGangPoints)
+	
+	Wszystkie boty, pojazdy i serca mają datę "gangWarsData", zawierającą tabelę {["areaIndex"] = ID atakowanej strefy, ["gangID"] = ID atakującego gangu}
+
+
+Większość rzeczy możesz edytować w pliku przejmowanie_sh. 

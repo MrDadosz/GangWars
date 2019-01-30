@@ -1,0 +1,22 @@
+﻿1. Wrzuć pliki na FTP serwera
+2. Zmień dane w skryptach:
+
+	XyzzyRP blokuje zabijanie pedów:
+	edycja pliku lss-gui, gui_c_.lua
+	
+	zamiana:
+	addEventHandler ( "onClientPedDamage", root, cancelEvent )
+	
+	na:
+	addEventHandler ( "onClientPedDamage", root, function(attacker, weapon, bodypart)
+		if not getElementData(source, "gangWarsData") then
+			cancelEvent()
+		end
+	end )
+3. Stwórz strukturę bazy danych bazując na screenach
+4. Dodaj dane do bazy danych gangów takie jak np. kolory czy containery (ID schowka z lss_containers)
+5. Wgraj plik przejmowanie_licencja_s.luac otrzymany od autora
+6. Uruchom skrypt
+To wszystko, resztą powinien zająć się kod. 
+
+Jeżeli nie możesz rozpocząć bitwy pod F4 to upewnij się, ze masz piątą rangę w gangu bądź edytuj funkcję isPlayerOrganisationLeader.
