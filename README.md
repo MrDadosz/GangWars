@@ -42,6 +42,8 @@ Wiele osób poszukuje takiego skryptu, jednak nie ma żadnego na internecie. Skr
 ...i więcej
  
  **Screeny**
+ ===========
+ https://youtu.be/95I4r5b7aok
  
  https://i.imgur.com/89tm6fk.png 
  
@@ -63,11 +65,11 @@ Co można modyfikować można sprawdzić na moim GitHubie: https://github.com/Mr
 
 **Dziękuję za pomoc:**
 ===========
-	Olez14 - pomoc w tworzeniu domyślnych stref i przygotowanie teasera
+    Olez14 - pomoc w tworzeniu domyślnych stref i przygotowanie teasera
 
 **Kontakt:**
 ===========
     Discord: MrDadosz#0690
     Skype: mrdadosz
     Mail: mrdadosz@gmail.com
-	GitHub: https://github.com/MrDadosz
+    GitHub: https://github.com/MrDadosz
