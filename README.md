@@ -3,7 +3,7 @@
  
 Wiele osób poszukuje takiego skryptu, jednak nie ma żadnego na internecie. Skrypt zawiera strefy gangowe dające różne dobroci np. pieniądze, narkotyki czy bronie. Każdy gang może posiadać teren, którego nie da się przejąć. O resztę terenów gangi muszą walczyć pomiędzy sobą. Stworzony został w kilkanaście godzin i zawiera przygotowane domyślne miejsca.
 
-*GŁÓWNY FRAGMENT KODU JEST ZAKODOWANY, ALE FUNKCJE SPRAWDZAJĄCE SĄ ODKODOWANE! W RAZIE CHĘCI ZMIAN W RDZENIU WYMAGANA JEST PRYWATNA KONSULTACJA* (mogę udzielić porad podpięcia pod inny gamemode jeżeli potrafisz skryptować).
+**GŁÓWNY FRAGMENT KODU JEST ZAKODOWANY, ALE FUNKCJE SPRAWDZAJĄCE SĄ ODKODOWANE! W RAZIE CHĘCI ZMIAN W RDZENIU WYMAGANA JEST PRYWATNA KONSULTACJA** (mogę udzielić porad podpięcia pod inny gamemode jeżeli potrafisz skryptować).
  
 **Zasady działania skryptu:**
 ===========
@@ -43,7 +43,7 @@ Wiele osób poszukuje takiego skryptu, jednak nie ma żadnego na internecie. Skr
  
  **Screeny**
  ===========
- https://youtu.be/95I4r5b7aok
+ **https://youtu.be/95I4r5b7aok**
  
  https://i.imgur.com/89tm6fk.png 
  
