@@ -1,1 +1,2 @@
-1.0.2 - Fix mo�liwo�ci przej�cia kilku niezaj�tych stref w jednym dniu
+1.0.3 - Przy tworzeniu pojazdów/pedów/żyć nie usuwało kolizji sprawdzających, czy jakiś element jest już wewnątrz. Poprawka naprawia ten problem.
+1.0.2 - Fix możliwości przejęcia kilku niezajętych stref w jednym dniu
