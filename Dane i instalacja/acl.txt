@@ -1,6 +1,5 @@
     <group name="CustomResources">
         <acl name="CustomResources"></acl>
-        <object name="resource.dadosz-komisy"></object>
         <object name="resource.dadosz-gangwars"></object>
     </group>  
     <acl name="CustomResources">
