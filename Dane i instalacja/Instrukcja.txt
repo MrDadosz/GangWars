@@ -15,8 +15,9 @@
 	end )
 3. Stwórz strukturę bazy danych bazując na screenach
 4. Dodaj dane do bazy danych gangów takie jak np. kolory czy containery (ID schowka z lss_containers)
-5. Wgraj plik przejmowanie_licencja_s.luac otrzymany od autora
-6. Uruchom skrypt
+5. Dodaj grupy ACL z pliku acl.txt i przeładuj ACL na serwerze
+6. Wgraj plik przejmowanie_licencja_s.luac otrzymany od autora
+7. Uruchom skrypt
 To wszystko, resztą powinien zająć się kod. 
 
 Jeżeli nie możesz rozpocząć bitwy pod F4 to upewnij się, ze masz piątą rangę w gangu bądź edytuj funkcję isPlayerOrganisationLeader.
