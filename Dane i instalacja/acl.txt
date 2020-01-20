@@ -1,0 +1,9 @@
+    <group name="CustomResources">
+        <acl name="CustomResources"></acl>
+        <object name="resource.dadosz-komisy"></object>
+        <object name="resource.dadosz-gangwars"></object>
+    </group>  
+    <acl name="CustomResources">
+        <right name="function.fetchRemote" access="true"></right>
+        <right name="general.ModifyOtherObjects" access="true"></right>
+    </acl>
