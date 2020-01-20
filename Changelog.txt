@@ -1,3 +1,4 @@
 1.0.2 - Fix możliwości przejęcia kilku niezajętych stref w jednym dniu
 1.0.3 - Przy tworzeniu pojazdów/pedów/żyć nie usuwało kolizji sprawdzających, czy jakiś element jest już wewnątrz. Poprawka naprawia ten problem.
 1.0.4 - Naprawiono spawnowanie serc oraz spawnowanie się botów, gdy wartość preparationTime zostala zmieniona (respiły się po 3 minutach)
+1.0.5 - aktualizacja zabezpieczeń
