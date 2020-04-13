@@ -210,4 +210,4 @@ local function resetAttacksByNewDay()
 		currentDay = time.monthday
 	end
 end
-setTimer(checkNewDay, 60000, 0)
+setTimer(resetAttacksByNewDay, 60000, 0)
