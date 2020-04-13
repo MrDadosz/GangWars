@@ -9,22 +9,24 @@ settings = {
 	["maxPoints"] = 100,			-- maksymalna liczba punktów, po której przekroczeniu kończy się przejmowanie
 	["pointsForVehicle"] = 1.2,		-- w liczbach, punkty za zniszczenie pojazdu, domyślnie 1.2
 	["pointsForPed"] = 0.26,		-- w liczbach, punkty za peda, domyślnie 0.26
-	["preparationTime"] = 180,		-- w sekundach, domyślnie 180
-	["attackTime"] = 600,			-- w sekundach, domyślnie 600
+	["preparationTime"] = 10,		-- w sekundach, domyślnie 180
+	["attackTime"] = 60,			-- w sekundach, domyślnie 600
 	["refreshPlayers"] = 30,		-- w sekundach, odświeża graczy, którzy wbili na serwer, domyślnie 30
 	["respawnBots"] = 180,			-- w sekundach, respawnuje pojazdy/boty/życia jeśli zostały zniszczone, domyślnie 180
 	["defaultBind"] = "F4",			-- klawisz, przycisk włączający GUI przejmowania, domyślnie "F4"
 	["radarAreaOpacity"] = 170, 	-- liczba 1-255, alpha, domyślnie 170
-	["minGangPlayersToAttack"] = 3,	-- liczba, ilość wymaganych członków gangu aby zaatakować go, domyślnie 3
+	["minGangPlayersToAttack"] = 0,	-- liczba, ilość wymaganych członków gangu aby zaatakować go, domyślnie 3
 	["giveItemsTime"] = 1,			-- liczba, ilość godzin co ile skrypt daje do sejfów przedmioty, domyślnie 1
-	["botHeadshots"] = false,		-- true/false, czy boty giną po strzale w głowę, domyślnie false
+	["botHeadshots"] = true,		-- true/false, czy boty giną po strzale w głowę, domyślnie false
+	["minimalTimeToAttackNexTime"] = 30,	-- liczba, po jakim czasie ponownie można zaatakować teren w minutach, domyślnie 30
+	["attacksPerDay"] = 2,			-- liczba, ile razy dziennie można zaatakować teren, domyślnie 2
 	
 	["DBResource"] = "DB2",			-- string, zasób z bazą danych, domyślnie "DB2"
 	["query"] = "zapytanie",		-- string, funkcja z zapytaniem, domyślnie "query"
 	["getOneRow"] = "pobierzWyniki",		-- string, funkcja pobierająca ostatni wynik, domyślnie "pobierzWyniki"
 	["getRows"] = "pobierzTabeleWynikow",	-- string, funkcja pobierająca tablicę wyników, domyślnie "pobierzTabeleWynikow"
 	
-	["debug"] = false,				-- true/false, czy pokazywać wiadomości debugowe w debugscript, domyślnie false
+	["debug"] = true,				-- true/false, czy pokazywać wiadomości debugowe w debugscript, domyślnie false
 }
 
 possiblePeds = getValidPedModels()
