@@ -188,3 +188,26 @@ local function giveEveryGangItemsByTime()
 	end
 end
 setTimer(giveEveryGangItemsByTime, settings["giveItemsTime"]*60*60*1000, 0)
+
+local didCurrentDay = false
+local currentDay = getRealTime().monthday
+local function resetAttacksByNewDay()
+	if not didCurrentDay then
+		if time.hour >= 23 and time.minute >= 50 then
+			setTimer(function()
+					exports["DB2"]:zapytanie("UPDATE lss_co SET today_attacks = 0")
+					showGangLog("Zresetowano ataki ze względu na nowy dzień", false, true)
+					
+					killTimer(sourceTimer)
+				end
+			end, 1000*30, 0)
+			didCurrentDay = true
+		end
+	end
+
+	if time.monthday ~= currentDay then
+		didCurrentDay = false
+		currentDay = time.monthday
+	end
+end
+setTimer(checkNewDay, 60000, 0)
