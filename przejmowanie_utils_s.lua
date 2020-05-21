@@ -191,14 +191,22 @@ setTimer(giveEveryGangItemsByTime, settings["giveItemsTime"]*60*60*1000, 0)
 
 local didCurrentDay = false
 local currentDay = getRealTime().monthday
+local resetDayTimer = nil
 local function resetAttacksByNewDay()
+	local time = getRealTime()
 	if not didCurrentDay then
 		if time.hour >= 23 and time.minute >= 50 then
-			setTimer(function()
-				exports["DB2"]:zapytanie("UPDATE lss_co SET today_attacks = 0")
-				showGangLog("Zresetowano ataki ze względu na nowy dzień", false, true)
-				
-				killTimer(sourceTimer)
+			if isTimer(resetDayTimer) then
+				return
+			end
+			resetDayTimer = setTimer(function()
+				local time = getRealTime()
+				if time.hour == 0 then
+					exports["DB2"]:zapytanie("UPDATE lss_co SET today_attacks = 0")
+					showGangLog("Zresetowano ataki ze względu na nowy dzień", false, true)
+					
+					killTimer(sourceTimer)
+				end
 			end, 1000*30, 0)
 			didCurrentDay = true
 		end
