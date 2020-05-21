@@ -195,11 +195,10 @@ local function resetAttacksByNewDay()
 	if not didCurrentDay then
 		if time.hour >= 23 and time.minute >= 50 then
 			setTimer(function()
-					exports["DB2"]:zapytanie("UPDATE lss_co SET today_attacks = 0")
-					showGangLog("Zresetowano ataki ze względu na nowy dzień", false, true)
-					
-					killTimer(sourceTimer)
-				end
+				exports["DB2"]:zapytanie("UPDATE lss_co SET today_attacks = 0")
+				showGangLog("Zresetowano ataki ze względu na nowy dzień", false, true)
+				
+				killTimer(sourceTimer)
 			end, 1000*30, 0)
 			didCurrentDay = true
 		end
