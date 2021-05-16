@@ -18,7 +18,8 @@ settings = {
 	["minGangPlayersToAttack"] = 0,	-- liczba, ilość wymaganych członków gangu aby zaatakować go, domyślnie 3
 	["giveItemsTime"] = 1,			-- liczba, ilość godzin co ile skrypt daje do sejfów przedmioty, domyślnie 1
 	["botHeadshots"] = true,		-- true/false, czy boty giną po strzale w głowę, domyślnie false
-	["minimalTimeToAttackNexTime"] = 30,	-- liczba, po jakim czasie ponownie można zaatakować teren w minutach, domyślnie 30
+	["minimalTimeToAttackNexTime"] = 30,	-- liczba, po jakim czasie ponownie można zaatakować przez dany gang w minutach, domyślnie 30
+	["minimalTimeToAttackArea"] = 30,	-- liczba, po jakim czasie ponownie można zaatakować teren w minutach, domyślnie 30
 	["attacksPerDay"] = 2,			-- liczba, ile razy dziennie można zaatakować teren, domyślnie 2
 	["attackCooldown"] = 30,		-- liczba, co ile minut można atakować gang od ostatniego ataku
 	

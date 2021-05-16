@@ -4,3 +4,4 @@
 1.0.5 - Aktualizacja zabezpieczeń.
 1.1.0 - Dodano "tokeny" - w skrypcie można zmieniać co ile minut od ataku można zaatakować teren ponownie, oraz ile razy można to zrobić dziennie.
 1.2.0 - Dodano "cooldown" - blokuje atakowanie przez X minut danego gangu po ostatnim ataku. Jeśli gang żółty zaatakuje gang czerwony a potem gang pomarańczowy próbuje atakować gang czerwony, to nie będzie się tego dało zrobić. Domyślnie cooldown ma 30 minut. Wymagane dodanie last_attacked (datetime not null) w lss_co
+1.3.0 - Dodano "cooldown terenu" - blokuje atakowanie danego terenu przez X minut Domyślnie cooldown ma 30 minut. Wymagane dodanie last_attack (datetime not null) w dadosz_gangwars
