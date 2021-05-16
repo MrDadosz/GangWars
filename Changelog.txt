@@ -1,5 +1,6 @@
-1.0.2 - Fix możliwości przejęcia kilku niezajętych stref w jednym dniu
+1.0.2 - Fix możliwości przejęcia kilku niezajętych stref w jednym dniu.
 1.0.3 - Przy tworzeniu pojazdów/pedów/żyć nie usuwało kolizji sprawdzających, czy jakiś element jest już wewnątrz. Poprawka naprawia ten problem.
-1.0.4 - Naprawiono spawnowanie serc oraz spawnowanie się botów, gdy wartość preparationTime zostala zmieniona (respiły się po 3 minutach)
-1.0.5 - aktualizacja zabezpieczeń
-1.1.0 - Dodano "tokeny" - w skrypcie można zmieniać co ile minut od ataku można zaatakować teren ponownie, oraz ile razy można to zrobić dziennie
+1.0.4 - Naprawiono spawnowanie serc oraz spawnowanie się botów, gdy wartość preparationTime zostala zmieniona (respiły się po 3 minutach).
+1.0.5 - Aktualizacja zabezpieczeń.
+1.1.0 - Dodano "tokeny" - w skrypcie można zmieniać co ile minut od ataku można zaatakować teren ponownie, oraz ile razy można to zrobić dziennie.
+1.2.0 - Dodano "cooldown" - blokuje atakowanie przez X minut danego gangu po ostatnim ataku. Jeśli gang żółty zaatakuje gang czerwony a potem gang pomarańczowy próbuje atakować gang czerwony, to nie będzie się tego dało zrobić. Domyślnie cooldown ma 30 minut. Wymagane dodanie last_attacked (datetime not null) w lss_co

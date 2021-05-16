@@ -20,6 +20,7 @@ settings = {
 	["botHeadshots"] = true,		-- true/false, czy boty giną po strzale w głowę, domyślnie false
 	["minimalTimeToAttackNexTime"] = 30,	-- liczba, po jakim czasie ponownie można zaatakować teren w minutach, domyślnie 30
 	["attacksPerDay"] = 2,			-- liczba, ile razy dziennie można zaatakować teren, domyślnie 2
+	["attackCooldown"] = 30,		-- liczba, co ile minut można atakować gang od ostatniego ataku
 	
 	["DBResource"] = "DB2",			-- string, zasób z bazą danych, domyślnie "DB2"
 	["query"] = "zapytanie",		-- string, funkcja z zapytaniem, domyślnie "query"
