@@ -2,7 +2,7 @@
 CREATE TABLE `dadosz_gangwars` (
   `area_index` smallint(3) UNSIGNED NOT NULL,
   `gang_owning_color` enum('gray','purple','green','orange','yellow','white','pink','blue','nobody') NOT NULL,
-  `take_over_time` datetime NOT NULL DEFAULT '2000-01-01 00:00:00'
+  `take_over_time` datetime NOT NULL DEFAULT '2000-01-01 00:00:00',
   `last_attack` datetime NOT NULL DEFAULT '2000-01-01 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
